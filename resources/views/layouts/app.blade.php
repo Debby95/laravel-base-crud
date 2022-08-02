@@ -10,6 +10,16 @@
     <script src="{{ asset('./js/app.js') }}"></script>
 </head>
 <body>
-    
+    <main>
+        <div class="container">
+            @include('partials.main')
+
+            @yield('page_title')
+
+            <div class="container">
+                @yield('page_content')
+            </div>
+        </div>
+    </main>
 </body>
 </html>
