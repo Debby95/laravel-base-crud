@@ -7,7 +7,7 @@
 @section('page_content')
 <h1 class="text-center">Comics create</h1>
 <div class="container">
-    <form action="{{ route('comics.create') }}" method="post">
+    <form action="{{ route('comics.store') }}" method="post">
         @csrf
         <div class="form-group">
             <label for="exampleFormControlInput1">Title</label>
