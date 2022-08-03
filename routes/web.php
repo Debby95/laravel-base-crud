@@ -18,5 +18,6 @@ Route::get('/', function () {
 })->name("home");
 
 Route::get("comics/", "ComicsController@index")->name("comics.index");
-Route::get("comics/{comic}", "ComicController@show")->name("comics.show");
+Route::get("comic/", "ComicsController@create")->name("comics.create");
+Route::get("comics/{comic}", "ComicsController@show")->name("comics.show");
 
