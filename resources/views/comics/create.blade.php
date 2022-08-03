@@ -40,7 +40,9 @@
             <input type="type" class="form-control" id="exampleFormControlInput1">
         </div>
 
-        <a href=""><button class="send mt-3">Send</button></a>
+        <a href="{{route('comics.index')}}">
+            <button class="send mt-3">Send</button>
+        </a>
     </form>
 </div>
 
